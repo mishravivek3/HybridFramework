@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]" parallel="tests">
+  <test name="Class Test A(failed)" parallel="tests">
+    <classes>
+      <class name="testscript.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="1 2"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testscript.LoginTest -->
+    </classes>
+  </test> <!-- Class Test A(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

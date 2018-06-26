@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Session Suite" parallel="tests">
+
+
+<test name="VerifyPolicyoverview">
+    <classes>
+        <class name="testscript.VerifyPolicyoverview" ></class>  
+    </classes>
+</test>
+
+</suite>
+

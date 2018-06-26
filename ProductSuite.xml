@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Product Suite" parallel="tests">
+
+<test name="VerifyPolicyoverview">
+    <classes>
+        <class name="testscript.VerifyPolicyoverview" ></class>  
+    </classes>
+</test>
+
+</suite>
+

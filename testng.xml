@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My suite" parallel="true">
+
+  <suite-files>
+
+   <suite-file path="./ProductSuite.xml" />
+
+  </suite-files>
+</suite>

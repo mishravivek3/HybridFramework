@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Product Suite]" parallel="tests">
+  <test name="VerifyPolicyoverview(failed)" parallel="tests">
+    <classes>
+      <class name="testscript.VerifyPolicyoverview">
+        <methods>
+          <include name="VerifyPolicyoverview" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testscript.VerifyPolicyoverview -->
+    </classes>
+  </test> <!-- VerifyPolicyoverview(failed) -->
+</suite> <!-- Failed suite [Product Suite] -->
